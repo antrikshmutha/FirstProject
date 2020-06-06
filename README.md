@@ -27,3 +27,5 @@ Data Understanding: By observing the data, I found that answering questions ment
 The missing values were filled using the mean for the ratings. Using the mean made more sense as the range of the ratings was very less and so mean would have given a satisfactory result. 
 
 
+Please follow the link to visit my blog: https://antrikshnostrum.blogspot.com/2020/06/seen-space-needle-yet.html
+
