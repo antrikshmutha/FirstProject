@@ -16,7 +16,7 @@ I would love to Thank Airbnb for providing me with their data.
 
 
 The CRISP-DM Process:
-Understanding the Business: Airbnb is an online service which provides a platform for posting your rental property and helps connect the renters to the customers. It is important that the customer as well as the renters are well informed so that the service profits with it's quality service. The scope of this project involves answering the following Questions:
+Understanding the Business: Airbnb is an online service which provides a platform for posting your rental property and helps connect the renters to the customers. It is important that the customer as well as the renters are well informed so that the service profits with it's quality service. The Airbnb Seattle data is available from Kaggle. The dataset includes full description and average review score for listed places. The scope of this project involves answering the following Questions:
 Q1 - On average, how much does it cost to stay in Seattle for one night?
 Q2 - What is the average cost of stay based on the property type?
 Q3 - What are the average ratings for each of the property type?
@@ -24,8 +24,15 @@ Q4 - How does the property distribution look like?
 Q5 - What is the best month to visit Seattle based on the pricing and availibilty?
 
 Data Understanding: By observing the data, I found that answering questions mentioned above doesn't specifically require machine learning algorithms. While machine learning provides us with powerful predictive techniques, descriptive analytics is sufficient to serve the purpose. Please refer the jupyter notebook for the analysis. 
-The missing values were filled using the mean for the ratings. Using the mean made more sense as the range of the ratings was very less and so mean would have given a satisfactory result. 
+
+Data Preparation: For the Airbnb Calendar Dataset, there were around 20% missing values for the ratings. The missing values were filled using the mean for the ratings. Using the mean made more sense as the range of the ratings was very less and so mean would have given a satisfactory result. 
+
+Data Modeling: The data was manipulated for performing descriptive analysis using groupby and sort
 
 
+Evaluation: It was found that availability is generally high in the months of 
+October, November, December with prices around $140 for one night.
+
+
+Deploymenmt: Results are summarized in a blog for which the link is mentioned below
 Please follow the link to visit my blog: https://antrikshnostrum.blogspot.com/2020/06/seen-space-needle-yet.html
-
